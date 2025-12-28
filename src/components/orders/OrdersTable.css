@@ -1,0 +1,147 @@
+
+.orders-table-wrapper {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+}
+
+
+.orders-table-wrapper .MuiTypography-root {
+  color: #1E3C6E;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.orders-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.orders-filters .MuiInputBase-root {
+  background: #e6efff !important;
+  border-radius: 2rem !important;
+}
+
+.orders-filters .rmdp-wrapper input {
+  background: #e6efff !important;
+  border-radius: 2rem !important;
+  padding-left: 1rem;
+  height: 40px;
+}
+
+.MuiPaper-root {
+    border-radius: 3rem !important;
+    box-shadow: none !important;
+    border: 2px solid #e6efff;
+}
+
+.mui-table-row {
+  transition: background 0.2s;
+}
+
+.mui-table-row:hover {
+  background: rgba(30, 60, 110, 0.08);
+}
+
+.mui-table-head-cell {
+  background-color: #f1f3f6;
+  font-weight: 600;
+  color: #1E3C6E;
+  
+}
+
+.export-btn {
+  background: #e6efff;
+  color: #1E3C6E;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.export-btn:hover {
+  background: #d0e2ff;
+}
+.tss-gm6zfk-MUIDataTableHeadCell-fixedHeader{
+    background-color: #d8d4d42e !important;
+    text-align: center !important;
+}
+
+.tss-178gktx-MUIDataTableHeadCell-contentWrapper{
+    justify-content: center !important;
+}
+
+.tss-1qtl85h-MUIDataTableBodyCell-root {
+    text-align: center;
+}
+
+.tss-1cdcmys-MUIDataTable-responsiveBase{
+    position: static !important;
+}
+
+.MuiTablePagination-root {
+  background: #e6efff;
+  border-radius: 2rem;
+  padding: 0.2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 1rem 0 ;
+}
+
+
+.MuiTablePagination-caption,
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+  color: #1E3C6E;
+  text-align: center;
+  font-weight: 500;
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root {
+  background: #e6efff;
+  border-radius: 2rem;
+  width: 100%;
+  height: 36px;
+  color: #1E3C6E;
+  font-weight: bold;
+  margin: 0 2px;
+  transition: all 0.2s;
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root.Mui-selected {
+  background: #1E3C6E;
+  color: #fff;
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root:hover {
+  background: #d0e2ff;
+}
+
+.mui-table-cell, 
+.mui-table-head-cell {
+  text-align: center;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    gap: 10px;
+}
+
+.title-table{
+    font-weight: bold;
+    font-size: 18px;
+    color: #1E3C6E;
+}
