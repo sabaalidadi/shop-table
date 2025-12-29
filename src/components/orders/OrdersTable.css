@@ -145,3 +145,8 @@
     font-size: 18px;
     color: #1E3C6E;
 }
+
+.MuiTablePagination-actions{
+      display: flex;
+    flex-direction: row-reverse;
+}
